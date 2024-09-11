@@ -28,12 +28,12 @@
     }
 
 </style>
-     <div class="container">
-     <div class="row">
-     <div class="col-12 col-md-6">
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6">
      <form class="container" action="/Projects/src/crud.php" method="POST">
-  <input type="hidden" name="acao" value="cadastrar">
-    <h2 class="text-center">Cadastrar Produtos</h2>
+      <input type="hidden" name="acao" value="cadastrar">
+      <h2 class="text-center">Cadastrar Produtos</h2>
 
       <div class="mb-3">
         <label class="form-label">Nome</label>
@@ -67,18 +67,5 @@
      <div class="col-6">
       <img class="img2 d-none d-md-block" src="../img/img2.png">
      </div>
-     </div>
-     </div>
-     
-      
-<script>
-  function alert() {
-    Swal.fire({
-      title: 'Error!',
-      text: 'Do you want to continue',
-      icon: 'error',
-      confirmButtonText: 'Cool'
-})
-  }
-</script>
-
+  </div>
+</div>

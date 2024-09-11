@@ -69,8 +69,7 @@
 
 <section class="container">
   <div class="row">
-
-    <!--Conteudo do index -->
+    <!--Conteudo da pagina index -->
     <article class="col-12 col-md-6">
       <h1 class="p-3">Controle de produtos</h1>
       <p class="p-3" style="p{text-indent: 20px !important;}">
@@ -91,6 +90,7 @@
     require '/xampp/htdocs/Projects/Conexao/config.php';
     require '/xampp/htdocs/Projects/src/crud.php';
 
+    #Através deste switch, será incluída a página que o usuário solicitar
     switch (@$_REQUEST["page"]) {
       case 'paginaCadastro':
         require_once 'paginaCadastro.php';
@@ -104,6 +104,7 @@
         break;
     }
     ?>
+    <!--Imagem da página index -->
     <aside class="col-6">
       <img class="img1 d-none d-md-block" src="../img/img1.png" style="width: 90%">
     </aside>
