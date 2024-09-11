@@ -15,7 +15,7 @@
         width: 200px;
         position: relative;
         bottom: 5px;
-        left: 24%;
+        left: 25%;
     }
 
     form{
